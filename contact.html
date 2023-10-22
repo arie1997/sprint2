@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Nova Studio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+           <a href="index.html"><img src="logo2.png" alt="Nova Studio"></a> 
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="contact.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="contact">
+            <div class="contact-info">
+                <h1>Información de Contacto</h1>
+
+                <ul>
+
+                    <li><strong>Domicilio:</strong> Calle Falsa 1234</li>
+                    <li><strong>Teléfono:</strong> +54 11-1356-4235</li>
+                    <li><strong>País:</strong> Argentina</li>
+                    <li><strong>Localidad:</strong> Merlo</li>
+                    <li><strong>Código Postal:</strong> 1720</li>
+                </ul>
+                <h2></h2>
+                <div class="wsp-btn">
+               
+                
+                    <a href="https://wa.me/+5491135094661?text=Hola" target="_blank">Contactar por WhatsApp</a>
+                </div>
+
+            </div>
+            
+            <div class="contact-form">
+               
+                <form form method="post" action="enviar.php">
+                    <h1>Envíanos tu Consulta</h1>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Su nombre" required>
+
+                    <label for="email">Correo:</label>
+                    <input type="email" id="email" name="email" placeholder="Su Correo Electrónico">
+
+                    <label for="consulta">Comentario:</label>
+                    <textarea id="consulta" name="consulta" rows="4" placeholder="Su Mensaje aqui" required></textarea>
+
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+        <section class="map">
+            <h1>UBICACION <i class="fas fa-map-marker-alt location-icon"></i></h1>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d792159.8354398469!2d-76.04599491059896!3d39.143466238751536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c705764d0cd63b%3A0x941d2d128c04e878!2sDelaware%2C%20EE.%20UU.!5e0!3m2!1ses!2sar!4v1696616009324!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+    </main>
+    <footer>
+        <p>© 2023 Nova Studio, Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>
